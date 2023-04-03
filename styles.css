@@ -56,6 +56,9 @@ h1{
 #menuIcon:hover{
     cursor: pointer;
 }
+mainHeadlineImage{
+    margin: auto;
+}
 .readmoreButton{
     background-color: hsl(5, 85%, 63%);
     border: none;
