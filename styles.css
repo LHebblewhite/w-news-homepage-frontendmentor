@@ -57,7 +57,7 @@ h1{
     cursor: pointer;
 }
 .mainHeadlineImage{
-    margin: auto;
+    width: 100%;
 }
 .readmoreButton{
     background-color: hsl(5, 85%, 63%);
