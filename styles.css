@@ -1,0 +1,123 @@
+html {
+    background-color: white;
+}
+main{ 
+    font-family: "Inter";
+    font-size: 15px;
+    color:hsl(236, 13%, 42%);
+}
+#sidemenu{
+    background-color: white;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    right: 0; 
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.closeButton{
+    float: right;
+    padding-top: 30px;
+}
+.closeButton:hover{
+    cursor: pointer;
+}
+.navigationSelection{ 
+    padding-top: 100px;
+}
+.navigationHeadings{
+    color:hsl(240, 100%, 5%);
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.navigationHeadings:hover{
+    color: hsl(35, 77%, 62%);
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: hsl(240, 100%, 5%);
+}
+.menubar{
+    padding-top: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#menuIcon{
+    float: right;
+    margin-top: 15px;
+}
+#menuIcon:hover{
+    cursor: pointer;
+}
+.readmoreButton{
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    width: 150px;
+    color: white; 
+    font-weight: bold; 
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.readmoreButton:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+.newHeadlines{
+    background-color: hsl(240, 100%, 5%);
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+}
+.newHeadlinesHeader2{
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 0px;
+}
+.newHeadlinesHeader3, .newHeadlineText{
+    color:hsl(36, 100%, 99%); 
+}
+.newHeadlinesHeader3:hover,.selectorHeader3:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer; 
+}
+.asideArticles{
+    border-bottom: solid 2px hsl(236, 13%, 42%);
+    padding-top: 15px; 
+    padding-bottom: 20px;
+}
+.asideArticlesBottom{
+    padding-top: 15px; 
+    padding-bottom: 5px;
+}
+.storySelector{
+    margin-top: 60px;
+}
+.selectorArticles{
+    display: flex; 
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.selectorText{
+    margin-left: 25px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.selectorImages{
+    height: 175px;
+}
+.selectorHeader2{
+    color:hsl(233, 8%, 79%);
+    margin-top: 0px;
+    padding-top: 0px;
+}
