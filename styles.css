@@ -148,15 +148,19 @@ h1{
 }
 .selectorHeader2{
     color:hsl(233, 8%, 79%);
-    margin-top: 0px;
-    padding-top: 0px;
-}
-.selectorHeader3{ 
+    margin-top: 5px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+.selectorHeader3{
+    margin-top: 15px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
 p{
-    margin-top:0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 1px;
 }
 @media (min-width: 970px){
     #menuIcon{
