@@ -148,7 +148,7 @@ h1{
 }
 .selectorHeader2{
     color:hsl(233, 8%, 79%);
-    margin-top: 5px;
+    margin-top: 1px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -161,6 +161,7 @@ p{
     margin-top: 0px;
     padding-top: 0px;
     padding-bottom: 1px;
+    line-height: 1;
 }
 @media (min-width: 970px){
     #menuIcon{
