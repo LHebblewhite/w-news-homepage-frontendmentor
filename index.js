@@ -3,8 +3,8 @@ function openNav(){
     let setShadowSize = "25%"
     window.innerHeight >= 750 ? {setContentSize: "50%", setShadowSize: "50%"}: {setContentSize: "75%", setShadowSize: "25%"}
     document.getElementById("sidemenu").style.width = "100%";
-    document.getElementById("sidemenuContent") = setContentSize;
-    document.getElementById("sidemenuShadowArea") = setShadowSize;
+    document.getElementById("sidemenuContent").style.width = setContentSize;
+    document.getElementById("sidemenuShadowArea").style.width = setShadowSize;
 }
 function closeNav(){
     document.getElementById("sidemenu").style.width = "0%";
