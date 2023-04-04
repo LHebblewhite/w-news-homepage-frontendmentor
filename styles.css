@@ -52,6 +52,7 @@ h1{
 #menuIcon{
     float: right;
     margin-top: 15px;
+    padding-right: 20px;
 }
 #menuIcon:hover{
     cursor: pointer;
