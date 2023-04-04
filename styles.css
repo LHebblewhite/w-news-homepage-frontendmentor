@@ -21,7 +21,6 @@ main{
 #sidemenuShadowArea{
     background-color: hsl(240, 100%, 5%);
     opacity: 50%;
-    width: 100%;
 }
 #sidemenuContent{
     background-color: white;
@@ -66,6 +65,24 @@ h1{
 }
 #menuIcon:hover{
     cursor: pointer;
+}
+.displayLinkContainer{ 
+    margin-left: 50px;
+    margin-top: 15px;
+    display: none;
+    float: right;
+}
+.displayLinkText{
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    padding-right: 30px;
+}
+.displayLinkText:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+.mainBody{
+    flex-direction: column;
 }
 .mainHeadlineImage{
     width: 100%;
@@ -116,6 +133,7 @@ h1{
 }
 .storySelector{
     margin-top: 60px;
+    flex-direction: column;
 }
 .selectorArticles{
     display: flex; 
@@ -134,4 +152,19 @@ h1{
     color:hsl(233, 8%, 79%);
     margin-top: 0px;
     padding-top: 0px;
+}
+@media (min-width: 970px){
+    #menuIcon{
+        display: none;
+    }
+    .displayLinkContainer{
+        display: inline;
+    }
+    .mainBody{
+        flex-direction: row;
+    }
+    .storySelector{
+        flex-direction: row;
+    }
+
 }
