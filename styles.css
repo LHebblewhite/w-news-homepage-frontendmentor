@@ -51,7 +51,7 @@ h1{
     font-size: 40px;
     color: hsl(240, 100%, 5%);
     margin-top: 0px;
-    margin-bottom:0px;
+    margin-bottom: 15px;
 }
 .menubar{
     padding-top: 30px;
@@ -184,6 +184,7 @@ p{
         margin-right: 0px;
         padding-right: 0px;
         font-weight: 800;
+        margin-bottom: 0px;
     }
     #menuIcon{
         display: none;
@@ -208,6 +209,12 @@ p{
     }
     .readmoreButton{
         margin-top: 30px;
+        width: 200px; 
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .newHeadlines{
         margin-top: 0;
@@ -215,7 +222,7 @@ p{
         width: 50%;
     }
     .newHeadlinesHeader2{
-        font-weight: 30px;
+        font-size: 30px;
     }
     .storySelector{
         flex-direction: row;
