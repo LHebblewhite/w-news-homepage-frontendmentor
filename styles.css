@@ -174,8 +174,8 @@ p{
 }
 @media (min-width: 970px){
     main{
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
         padding-top: 40px;
         padding-bottom: 40px;
     }
@@ -183,6 +183,7 @@ p{
         font-size: 50px;
         margin-right: 0px;
         padding-right: 0px;
+        font-weight: 800;
     }
     #menuIcon{
         display: none;
