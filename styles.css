@@ -49,9 +49,9 @@ main{
 h1{
     font-weight: bold;
     font-size: 40px;
-    margin-top: 10px;
-    margin-bottom: 5px;
     color: hsl(240, 100%, 5%);
+    margin-top: 0px;
+    margin-bottom:0px;
 }
 .menubar{
     padding-top: 30px;
@@ -67,7 +67,6 @@ h1{
     cursor: pointer;
 }
 .displayLinkContainer{ 
-    margin-left: 50px;
     margin-top: 15px;
     display: none;
     float: right;
@@ -75,11 +74,18 @@ h1{
 .displayLinkText{
     color: hsl(236, 13%, 42%);
     font-size: 15px;
-    padding-right: 30px;
+    padding-left: 30px;
 }
 .mainBody{
     display: flex;
     flex-direction: column;
+}
+.mainHeadlines, .mainHeadlineTextAndButton, .mainHeadlineParagraphAndButton {
+    display: flex;
+    flex-direction: column; 
+}
+.mainHeadlineTextAndButton{
+    margin-top:20px;
 }
 .mainHeadlineImage{
     width: 100%;
@@ -115,6 +121,9 @@ h1{
 .newHeadlinesHeader3, .newHeadlineText{
     color:hsl(36, 100%, 99%); 
 }
+.newHeadlineText{
+    color : hsl(233, 8%, 79%)
+}
 .newHeadlinesHeader3:hover,.selectorHeader3:hover, .displayLinkText:hover{
     color: hsl(5, 85%, 63%);
     cursor: pointer; 
@@ -135,6 +144,7 @@ h1{
 }
 .selectorArticles{
     display: flex; 
+    flex: 1;
     flex-direction: row;
     margin-bottom: 40px;
 }
@@ -159,11 +169,21 @@ h1{
 }
 p{
     margin-top: 0px;
-    padding-top: 0px;
     padding-bottom: 1px;
     line-height: 1.8;
 }
 @media (min-width: 970px){
+    main{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    h1{
+        font-size: 50px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
     #menuIcon{
         display: none;
     }
@@ -173,8 +193,30 @@ p{
     .mainBody{
         flex-direction: row;
     }
+    .mainHeadlineImage{
+        content: url(./assets/images/image-web-3-desktop.jpg);
+    }
+    .mainHeadlineTextAndButton{
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    .mainHeadlineParagraphAndButton{
+        /* padding-left: 100px; */
+        width: 110%;
+        margin-left: 50px;
+    }
+    .readmoreButton{
+        margin-top: 30px;
+    }
+    .newHeadlines{
+        margin-top: 0;
+        margin-left: 25px; 
+        width: 75%;
+    }
     .storySelector{
         flex-direction: row;
     }
-
+    /* .selectorArticles{
+        width: 30%;
+    } */
 }
