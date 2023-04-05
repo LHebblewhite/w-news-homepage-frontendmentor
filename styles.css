@@ -220,6 +220,12 @@ p{
     .storySelector{
         flex-direction: row;
     }
+    .selectorArticles{
+        margin-right: 10px;
+    }
+    p{
+        font-size: 14px;
+    }
     /* .selectorArticles{
         width: 30%;
     } */
