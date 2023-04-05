@@ -214,6 +214,9 @@ p{
         margin-left: 25px; 
         width: 75%;
     }
+    .newHeadlinesHeader2{
+        font-weight: 30px;
+    }
     .storySelector{
         flex-direction: row;
     }
