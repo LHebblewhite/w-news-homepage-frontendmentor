@@ -107,6 +107,8 @@ h1{
     cursor: pointer;
 }
 .newHeadlines{
+    display: flex;
+    flex-direction: column;
     background-color: hsl(240, 100%, 5%);
     padding-left:15px;
     padding-right:15px;
@@ -174,10 +176,10 @@ p{
 }
 @media screen and (min-width: 970px){
     main{
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
     h1{
         font-size: 50px;
@@ -194,6 +196,9 @@ p{
     }
     .mainBody{
         flex-direction: row;
+    }
+    .mainHeadlines{
+        width: 75%;
     }
     .mainHeadlineImage{
         content: url(./assets/images/image-web-3-desktop.jpg);
@@ -219,16 +224,14 @@ p{
     .newHeadlines{
         margin-top: 0;
         margin-left: 25px; 
-        width: 50%;
+        width: 25%;
     }
     .newHeadlinesHeader2{
         font-size: 30px;
     }
     .storySelector{
         flex-direction: row;
-    }
-    .selectorArticles{
-        margin-right: 10px;
+        justify-content: space-between;
     }
     p{
         font-size: 14px;
