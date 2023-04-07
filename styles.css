@@ -228,6 +228,9 @@ p{
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .asideArticles , .asideArticlesBottom{
+        height: 100%;
+    }
     .newHeadlines{
         display: flex; 
         justify-content: space-between;
@@ -238,13 +241,13 @@ p{
     .newHeadlinesHeader2{
         font-size: 30px;
     }
-    .selectorArticles{
-        width: 100%;
-    }
     .storySelector{
         flex-direction: row;
         flex-grow: 1;
         justify-content: space-between;
+    }
+    .selectorArticles{
+        width: 100%;
     }
     p{
         font-size: 14px;
