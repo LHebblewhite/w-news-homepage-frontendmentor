@@ -229,6 +229,8 @@ p{
         padding-bottom: 20px;
     }
     .newHeadlines{
+        display: flex; 
+        justify-content: space-between;
         margin-top: 0;
         margin-left: 25px; 
         width: 25%;
