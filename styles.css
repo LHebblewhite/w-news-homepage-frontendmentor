@@ -142,6 +142,7 @@ h1{
 .storySelector{
     margin-top: 60px;
     display: flex;
+    flex: 3;
     flex-direction: column;
 }
 .selectorArticles{
@@ -149,6 +150,7 @@ h1{
     flex: 1;
     flex-direction: row;
     margin-bottom: 40px;
+    width: 100%;
 }
 .selectorText{
     margin-left: 25px;
