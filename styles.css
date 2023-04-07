@@ -232,6 +232,7 @@ p{
     .storySelector{
         flex-direction: row;
         justify-content: space-between;
+        width:100%;
     }
     p{
         font-size: 14px;
