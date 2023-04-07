@@ -142,7 +142,7 @@ h1{
 .storySelector{
     margin-top: 60px;
     display: flex;
-    flex: 3;
+    flex: 1;
     flex-direction: column;
 }
 .selectorArticles{
@@ -185,7 +185,7 @@ p{
     }
     h1{
         font-size: 50px;
-        margin-right:0;
+        margin-right:0px;
         padding-right:0px;
         font-weight: 900;
         margin-bottom: 0px;
@@ -205,17 +205,19 @@ p{
     .mainHeadlineImage{
         content: url(./assets/images/image-web-3-desktop.jpg);
     }
+    .mainHeadlineHeader1{
+        width: 100%;
+        padding-right: 30px;
+    }
     .mainHeadlineTextAndButton{
-        flex: 1;
+        display: flex;
         flex-direction: row;
         margin-top: 30px;
     }
     .mainHeadlineParagraphAndButton{
-        flex-grow: 1;
-        padding-left: 15%;
+        width:100%; 
+        padding-left: 0px;
         margin-left: 0px;
-        border: solid;
-        border-color: black;
     }
     .readmoreButton{
         margin-top: 30px;
@@ -233,6 +235,9 @@ p{
     }
     .newHeadlinesHeader2{
         font-size: 30px;
+    }
+    .selectorArticles{
+        width: 100%;
     }
     .storySelector{
         flex-direction: row;
